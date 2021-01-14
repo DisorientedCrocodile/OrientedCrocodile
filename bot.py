@@ -24,7 +24,8 @@ async def on_ready():
 
 initial_extensions = [
     'cogs.cube_counter',
-    'cogs.portalboost_counter'
+    'cogs.portalboost_counter',
+    'cogs.help'
 ]
 
 
