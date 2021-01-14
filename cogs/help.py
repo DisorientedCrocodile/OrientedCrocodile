@@ -17,7 +17,7 @@ class Help(commands.Cog, name="Help"):
         emb.add_field(name="croc-portal++", value="Adds 1 to the portalboost number")
         emb.add_field(name="croc-portalset [number]", value="Sets portalboost number to [number]")
         emb.add_field(name="croc-portaltotal", value="Prints out the portalboost number")
-        emb.add_field(name="croc-help", value="What do you think?")
+        emb.add_field(name="croc-crochelp", value="What do you think?")
 
         await ctx.send(embed=emb)
 
