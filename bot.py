@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-import sys
+from keep_alive import keep_alive
 
 # link to bot: https://discord.com/api/oauth2/authorize?client_id=799235690314465341&permissions=3072&scope=bot
 
@@ -35,5 +35,7 @@ if __name__ == "__main__":
         except Exception as e:
             print("Failed to load extension", extension, e)
 
+
+keep_alive()
 
 client.run(token)
